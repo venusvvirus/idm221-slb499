@@ -1,3 +1,3 @@
-# idm221-slb499
-## Saffron Buscemi Website Portfolio
+# Saffron Buscemi Website Portfolio
+## IDM 221
 

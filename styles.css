@@ -1,0 +1,249 @@
+/* CSS for website font */
+.k2d-thin {
+  font-family: "K2D", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+  
+.k2d-extralight {
+  font-family: "K2D", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+  
+.k2d-light {
+  font-family: "K2D", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+  
+.k2d-regular {
+  font-family: "K2D", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  
+.k2d-medium {
+  font-family: "K2D", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+  
+.k2d-semibold {
+  font-family: "K2D", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+  
+.k2d-bold {
+  font-family: "K2D", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+  
+.k2d-extrabold {
+  font-family: "K2D", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+ }
+  
+.k2d-thin-italic {
+  font-family: "K2D", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+  
+.k2d-extralight-italic {
+  font-family: "K2D", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+  
+.k2d-light-italic {
+  font-family: "K2D", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+  
+.k2d-regular-italic {
+  font-family: "K2D", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+  
+.k2d-medium-italic {
+  font-family: "K2D", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+  
+.k2d-semibold-italic {
+  font-family: "K2D", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+  
+.k2d-bold-italic {
+  font-family: "K2D", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+  
+.k2d-extrabold-italic {
+  font-family: "K2D", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+/* CSS for website design and orientation */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'K2D', sans-serif;
+}
+
+body {
+  background-color: #D7E2EA;
+  color: #657EA6;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #233C65;
+  padding: 15px;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+nav a {
+  color: #D7E2EA;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+main {
+  margin-top: 80px;
+}
+
+section {
+ margin-bottom: 40px;
+ scroll-margin-top: 80px;
+}
+
+h1, h2 {
+  color: #233C65;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  border-bottom: 2px solid #233C65;
+  padding-bottom: 5px;
+  }
+
+p {
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+}
+
+.bio {
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+a {
+  color: #233C65;
+  text-decoration: none;
+  font-weight: 500;
+  }
+
+a:hover {
+  text-decoration: underline;
+ }
+
+.project, .research-item {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+/* CSS for GIF file */
+.gif-container {
+  position: relative;
+  width: 100%;
+  margin: 20px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.gif-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(35, 60, 101, 0.1); 
+  pointer-events: none;
+}
+
+.embedded-gif {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+/* CSS for embedded video */
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+  margin: 20px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 6px rgba(35, 60, 101, 0.1);
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+}
